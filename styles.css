@@ -80,3 +80,22 @@ body {
       border-radius: 15px;
       width: 800px;
   }
+
+  .myBtn {
+    display: block;
+    margin: auto;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ff9933;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .myBtn:hover {
+    background-color: #555;
+  }
